@@ -1,0 +1,8 @@
+{
+  // Configurazione Cloudflare Workers: sito statico, nessun codice server
+  "name": "farmacia-di-bacco",
+  "compatibility_date": "2026-08-10",
+  "assets": {
+    "directory": "./"
+  }
+}
