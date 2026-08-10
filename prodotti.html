@@ -28,7 +28,19 @@
     <div class="nav-panel" id="navPanel">
       <nav class="nav">
         <a href="index.html#chi-siamo">Chi siamo</a>
-        <a href="prodotti.html" aria-current="page" class="is-active">Prodotti</a>
+        <div class="nav-item has-dropdown">
+          <a href="prodotti.html" aria-current="page" class="is-active">Prodotti</a>
+          <button class="dropdown-toggle" aria-label="Mostra le categorie prodotti" aria-expanded="false">
+            <svg class="caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="prodotti.html?cat=vino">Vini</a></li>
+            <li><a href="prodotti.html?cat=birra">Birre</a></li>
+            <li><a href="prodotti.html?cat=liquore">Gin &amp; liquori</a></li>
+            <li><a href="prodotti.html?cat=casereccio">Prodotti caserecci</a></li>
+            <li class="dropdown-divider"><a href="prodotti.html">Vedi tutti &rarr;</a></li>
+          </ul>
+        </div>
         <a href="index.html#dove-siamo">Dove siamo</a>
         <a href="index.html#contatti">Contatti</a>
       </nav>
